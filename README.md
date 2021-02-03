@@ -2,6 +2,12 @@
 
 Create my own blockchain, cryptocurrency and smart contract
 
+# Upcoming development work
+
+1. Run the application in distributed nodes
+2. Create cryptocurrency
+3. Create smart contract
+
 # Prerequisuites
 
 You only need to have Docker installed if you choose to use Docker to run this project
