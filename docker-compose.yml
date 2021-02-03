@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  my-blockchain:
+    image: my-blockchain:v1
+    restart: always
+    ports:
+      - 8080:8080
