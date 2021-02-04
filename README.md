@@ -2,11 +2,11 @@
 
 Create my own blockchain, cryptocurrency and smart contract
 
-# Upcoming development work
+# Upcoming Development Roadmap
 
-1. Run the application in distributed nodes
-2. Create cryptocurrency
-3. Create smart contract
+v2: Run the application in distributed nodes - Hopefully finished by end of March
+v3: Create cryptocurrency - Hopefully finished by end of April
+v4: Create smart contract - Hopefully finished by end of June
 
 # Prerequisuites
 
