@@ -61,8 +61,6 @@ class Blockchain:
       block = chain[block_index]
       # 1. prev_hash of each block is equal to the hash of prev block
       if block['prev_hash'] != self.hash(prev_block):
-        print(block['prev_hash'])
-        print('not equal')
         return False
       # 2. proof of each block is valid
       prev_proof = prev_block['proof']
