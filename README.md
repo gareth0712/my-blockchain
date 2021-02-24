@@ -10,4 +10,4 @@ v4: Create smart contract - Hopefully finished by end of June
 
 # Blockchain
 
-Go to "blockchain" directory. The [README.md](blockchain/README.md) there will guide you hosting a Python server containing APIs that allow you to create a blockchain and mine new blocks.
+Go to "blockchain" directory. The [README.md](blockchain) there will guide you hosting a Python server containing APIs that allow you to create a blockchain and mine new blocks.
