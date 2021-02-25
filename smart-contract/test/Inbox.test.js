@@ -8,7 +8,7 @@ const Web3 = require('web3');
 // An instance of Web3 will be created to access the accounts provided by ganache
 const provider = ganache.provider();
 const web3 = new Web3(provider);
-const { interface, bytecode } = require('../compile');
+const { interface, bytecode } = require('../compile')('Inbox');
 
 // Brief syntax reference for running mocha test
 // class Car {
