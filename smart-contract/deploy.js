@@ -1,4 +1,4 @@
-const HDWalletProvider = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const dotenv = require('dotenv');
 const path = require('path');
@@ -11,10 +11,10 @@ const { interface, bytecode } = require('./compile')(process.env.CONTRACT);
 // First argument is the mnemonic address
 // Second argument is link of network we wanna connect to, in this case the rinkeby network provided by Infura
 // It connect to a node offered by Infura
-const provider = new HDWalletProvider(
-  process.env.MNEMONIC,
-  process.env.INFURA_URL
-);
+const provider = new HDWalletProvider({
+  mnemonic: { phrase: process.env.MNEMONIC },
+  providerOrUrl: process.env.INFURA_URL,
+});
 
 const web3 = new Web3(provider);
 
@@ -36,6 +36,11 @@ const web3 = new Web3(provider);
       .deploy({ data: bytecode })
       .send({ gas: '1000000', from: accounts[0] });
   }
-
+  provider.engine.stop();
+  // Log the ABI out for React to use
+  console.log(interface);
+  // The address of block that the contract is deployed to
+  // For react use
   console.log('Contract deployed to', result.options.address);
+  provider.engine.stop();
 })();
