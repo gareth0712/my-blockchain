@@ -50,6 +50,7 @@ const App = () => {
     });
 
     setMessage('A winner has been picked');
+    getStates();
   };
 
   useEffect(() => {
