@@ -93,6 +93,7 @@ describe('Lottery Contract', () => {
     const finalBalance = await web3.eth.getBalance(accounts[0]);
     const difference = finalBalance - initialBalance;
 
+    // even though we get the money back, gas is still charged from making a transaction
     assert(difference > web3.utils.toWei('1.8', 'ether'));
   });
 });
