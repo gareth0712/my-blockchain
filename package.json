@@ -1,0 +1,25 @@
+{
+  "name": "my-blockchain",
+  "version": "1.0.0",
+  "description": "Create my own blockchain, cryptocurrency and smart contract",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --watchAll --testPathPattern=jestTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gareth0712/my-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gareth0712/my-blockchain/issues"
+  },
+  "homepage": "https://github.com/gareth0712/my-blockchain#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
