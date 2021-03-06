@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import web3 from './web3';
+import web3 from '../utils/web3';
 import './App.css';
-import lottery from './lottery';
+import lottery from '../utils/lottery';
 
 const App = () => {
   const [manager, setManager] = useState('');

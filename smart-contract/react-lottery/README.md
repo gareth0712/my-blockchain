@@ -15,6 +15,5 @@ To be updated in next development stage.
 
 1. Builds the app for production to the `build` folder.\
 2. It correctly bundles React in production mode and optimizes the build for the best performance.
-
 3. The build is minified and the filenames include the hashes.\
 4. The app will be ready to be deployed to a site!
