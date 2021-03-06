@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages for edit
 
 You can use the [editor on GitHub](https://github.com/gareth0712/my-blockchain/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
