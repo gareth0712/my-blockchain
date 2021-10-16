@@ -4,9 +4,9 @@ Create my own blockchain, cryptocurrency and smart contract
 
 # Upcoming Development Roadmap
 
-v2.1: Smart contract Update: Lottery contract - Update the contract details to be more robust and also allow the React component to show more information for user, to be completed by mid of March  
-v3: Blockchain Update: Run the blockchain application in distributed nodes - To be finished by end of March  
-v4: Blockchain + Smart contract Update: Create cryptocurrency - Hopefully finished by end of April
+v3: Create my own Devchain over the ETH network and allow connection to it via Metamask
+v4: Deploy a dApp (contracts and thegraph) with similar functionalities with DEX on devchain for practice
+v5: Deploy the frontend interface of the dApp (Maybe in another repo)
 
 # Blockchain
 
