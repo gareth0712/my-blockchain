@@ -4,8 +4,8 @@ Create my own blockchain, cryptocurrency and smart contract
 
 # Upcoming Development Roadmap
 
-v3: Create my own Devchain over the ETH network and allow connection to it via Metamask
-v4: Deploy a dApp (contracts and thegraph) with similar functionalities with DEX on devchain for practice
+v3: Create my own Devchain over the ETH network and allow connection to it via Metamask  
+v4: Deploy a dApp (contracts and thegraph) with similar functionalities with DEX on devchain for practice  
 v5: Deploy the frontend interface of the dApp (Maybe in another repo)
 
 # Blockchain
